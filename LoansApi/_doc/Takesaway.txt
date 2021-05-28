@@ -1,0 +1,9 @@
+﻿- Install Autofac.Extensions.DependencyInjection package in this project
+
+- use AutofacServiceProviderFactory to override the default factory
+  in the Program
+  - #TA01
+
+- implement ConfigureContainer in the Startup #TA02
+  - register Autofac modules defined in the class libraries
+    - #TA03

@@ -1,0 +1,5 @@
+﻿- Install Autofac package in this project
+  - the only reason we are doing this is that
+    we will expose a class that contains all
+    the DI requirements that can be conveniently 
+    registered in the client (API) project #TA01 
